@@ -29,9 +29,9 @@ rm -rfv /usr/bin/aspell
 rm -rfv /usr/bin/brotli
 rm -rfv /usr/bin/gawk
 rm -rfv /usr/bin/gcm-picker
-rm -rfv /usr/bin/gnome-control-center
-rm -rfv /usr/bin/gnome-keyring-daemon
-rm -rfv /usr/bin/gnome-logs
+#rm -rfv /usr/bin/gnome-control-center
+#rm -rfv /usr/bin/gnome-keyring-daemon
+#rm -rfv /usr/bin/gnome-logs
 rm -rfv /usr/bin/gpg
 rm -rfv /usr/bin/gpgv
 rm -rfv /usr/bin/grep
@@ -45,7 +45,7 @@ rm -rfv /usr/bin/python3.6
 rm -rfv /usr/bin/vi
 rm -rfv /usr/include
 rm -rfv /usr/lib/girepository-1.0
-rm -rfv /usr/lib/gnome-shell
+#rm -rfv /usr/lib/gnome-shell
 rm -rfv /usr/lib/gpg
 rm -rfv /usr/lib/locale
 rm -rfv /usr/lib/modules/
@@ -59,8 +59,8 @@ rm -rfv /usr/lib64/firefox
 rm -rfv /usr/lib64/gconv
 rm -rfv /usr/lib64/gio
 rm -rfv /usr/lib64/girepository-1.0
-rm -rfv /usr/lib64/gnome-keyring
-rm -rfv /usr/lib64/gnome-shell
+#rm -rfv /usr/lib64/gnome-keyring
+#rm -rfv /usr/lib64/gnome-shell
 rm -rfv /usr/lib64/libbluetooth.so.3.19.4
 rm -rfv /usr/lib64/libbrotlienc.so.1.0.6
 rm -rfv /usr/lib64/libdb.so.2.3.0
@@ -68,7 +68,7 @@ rm -rfv /usr/lib64/libdw-0.185.so
 rm -rfv /usr/lib64/libedataserver-1.2.so.23.0.0
 rm -rfv /usr/lib64/libfdisk.so.1.1.0
 rm -rfv /usr/lib64/libgdk-x11-2.0.so.0.2400.32
-rm -rfv /usr/lib64/libgnome-desktop-3.so.17.0.6
+#rm -rfv /usr/lib64/libgnome-desktop-3.so.17.0.6
 rm -rfv /usr/lib64/libldb.so.2.3.0
 rm -rfv /usr/lib64/libLLVM-12.so
 rm -rfv /usr/lib64/libnss_resolve.so.2
@@ -85,7 +85,7 @@ rm -rfv /usr/lib64/qt5/plugins/geoservices
 rm -rfv /usr/lib64/qt5/qml
 rm -rfv /usr/lib64/rsyslog
 rm -rfv /usr/lib64/samba
-rm -rfv /usr/libexec/gnome-session-binary
+#rm -rfv /usr/libexec/gnome-session-binary
 rm -rfv /usr/libexec/nm-iface-helper
 rm -rfv /usr/libexec/nm-initrd-generator
 rm -rfv /usr/sbin/gdm
@@ -96,11 +96,11 @@ rm -rfv /usr/share/backgrounds
 rm -rfv /usr/share/doc
 #rm -rfv /usr/share/gcc-8
 #rm -rfv /usr/share/glib-2.0
-rm -rfv /usr/share/gnome
-rm -rfv /usr/share/gnome-control/center
-rm -rfv /usr/share/gnome-control-center
-rm -rfv /usr/share/gnome-session
-rm -rfv /usr/share/gnome-shell
+#rm -rfv /usr/share/gnome
+#rm -rfv /usr/share/gnome-control/center
+#rm -rfv /usr/share/gnome-control-center
+#rm -rfv /usr/share/gnome-session
+#rm -rfv /usr/share/gnome-shell
 rm -rfv /usr/share/gnupg
 rm -rfv /usr/share/help/*
 rm -rfv /usr/share/hwdata/
@@ -203,10 +203,10 @@ rm -rfv /usr/lib64/lua
 rm -rfv /usr/lib64/librsvg-2.so.2
 rm -rfv /usr/lib64/libmozjs-60.so.0.0.0
 find /usr/lib64/ -type f -name "libpipe*" -print -delete
-rm -rfv /usr/lib64/gnome-settings-daemon-3.0
+#rm -rfv /usr/lib64/gnome-settings-daemon-3.0
 find /usr/lib64/ -type f -name "libgtk*" -print -delete
 find /usr/lib64/ -type f -name "*bluetooth*" -print -delete
-find /usr/lib64/ -type f -name "*gnome*" -print -delete
+#find /usr/lib64/ -type f -name "*gnome*" -print -delete
 #find /usr/lib64/ -type f -name "*polkit*" -print -delete
 find /usr/lib64/ -type f -name "*samba*" -print -delete
 find /usr/lib64/ -type f -name "*libcol*" -print -delete
@@ -224,7 +224,7 @@ find / -name "*libdb-*" -print -delete
 find / -name "*libedataserver*" -print -delete
 find / -name "*libfdisk*" -print -delete
 find / -name "*libgdk*" -print -delete
-find / -name "*libgnome*" -print -delete
+#find / -name "*libgnome*" -print -delete
 find / -name "*libldb*" -print -delete
 find / -name "*evolution*" -print -delete
 find / -name "*libpoppler*" -print -delete
@@ -234,7 +234,7 @@ find / -name "*libsolv*" -print -delete
 find / -name "*python3.6*" -print -delete
 find / -name "*qml*" -print -delete
 find / -name "*samba*" -print -delete
-find / -name "*gnome*" -print -delete
+#find / -name "*gnome*" -print -delete
 find / -name "*nm-*" -print -delete
 find / -name "*gdm*" -print -delete
 find / -name "*ldconfig*" -print -delete
