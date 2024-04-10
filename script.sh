@@ -114,7 +114,6 @@ rm -rfv /usr/share/man
 rm -rfv /usr/share/mime/text
 rm -rfv /usr/share/misc
 rm -rfv /usr/share/myspell
-rm -rfv /usr/share/otter-browser/locale
 rm -rfv /usr/share/plymouth
 rm -rfv /usr/share/polkit-1
 rm -rfv /usr/share/poppler
