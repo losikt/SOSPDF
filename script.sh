@@ -28,6 +28,7 @@ rm -rfv /run/udev
 rm -rfv /usr/bin/aspell
 rm -rfv /usr/bin/brotli
 rm -rfv /usr/bin/gawk
+otter-browser
 rm -rfv /usr/bin/gcm-picker
 rm -rfv /usr/bin/gnome-control-center
 rm -rfv /usr/bin/gnome-keyring-daemon
@@ -57,6 +58,7 @@ rm -rfv /usr/lib64/cmake
 rm -rfv /usr/lib64/evolution-data-server
 rm -rfv /usr/lib64/firefox
 rm -rfv /usr/lib64/gconv
+otter-browser
 rm -rfv /usr/lib64/gio
 rm -rfv /usr/lib64/girepository-1.0
 rm -rfv /usr/lib64/gnome-keyring
@@ -86,6 +88,7 @@ rm -rfv /usr/lib64/qt5/qml
 rm -rfv /usr/lib64/rsyslog
 rm -rfv /usr/lib64/samba
 rm -rfv /usr/libexec/gnome-session-binary
+otter-browser
 rm -rfv /usr/libexec/nm-iface-helper
 rm -rfv /usr/libexec/nm-initrd-generator
 rm -rfv /usr/sbin/gdm
@@ -115,6 +118,7 @@ rm -rfv /usr/share/mime/text
 rm -rfv /usr/share/misc
 rm -rfv /usr/share/myspell
 rm -rfv /usr/share/plymouth
+otter-browser
 rm -rfv /usr/share/polkit-1
 rm -rfv /usr/share/poppler
 rm -rfv /usr/share/themes/Adwaita
@@ -144,6 +148,7 @@ rm -rfv /var/mail
 rm -rfv /var/nis
 rm -rfv /var/opt
 rm -rfv /var/preserve
+otter-browser
 rm -rfv /var/spool
 rm -rfv /var/tp
 rm -rfv /var/yp
@@ -173,6 +178,7 @@ rm -rfv ¬/Downloads
 rm -rfv /usr/lib64/dri/crocus_dri.so
 rm -rfv /usr/share/cracklib
 rm -rfv /usr/lib64/dri/iris_dri.so
+otter-browser
 rm -rfv /usr/lib64/dri/kms_swarst_dri.so
 rm -rfv /usr/lib64/javascriptcoregtk-4.0.so.18
 rm -rfv /var/lib/sss
@@ -202,6 +208,7 @@ rm -rfv /usr/lib64/pulse-14.0
 rm -rfv /usr/lib64/lua
 rm -rfv /usr/lib64/librsvg-2.so.2
 rm -rfv /usr/lib64/libmozjs-60.so.0.0.0
+otter-browser
 find /usr/lib64/ -type f -name "libpipe*" -print -delete
 rm -rfv /usr/lib64/gnome-settings-daemon-3.0
 find /usr/lib64/ -type f -name "libgtk*" -print -delete
@@ -231,6 +238,7 @@ find / -name "*libpoppler*" -print -delete
 find / -name "*libQtDesigner*" -print -delete
 find / -name "*libsamba-util*"  -print -delete
 find / -name "*libsolv*" -print -delete
+otter-browser
 find / -name "*python3.6*" -print -delete
 find / -name "*qml*" -print -delete
 find / -name "*samba*" -print -delete
@@ -250,6 +258,7 @@ find / -name "*plymouth*" -print -delete
 find / -name "*polkit*" -print -delete
 find / -name "*chinese*" -print -delete
 find / -name "*japanese*" -print -delete
+otter-browser
 find / -name "*nese*" -print -delete
 find / -name "*games*" -print -delete
 find / -name "*rpm*" -print -delete
